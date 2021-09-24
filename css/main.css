@@ -8,6 +8,20 @@
     font-weight: 500;
 }
 
+body {
+    height:10000px;
+}
+
+h1, h2, h3 {
+    font-weight: 700
+}
+
+p {
+    font-size: 15px;
+    line-height: 22px;
+}
+
+
 /* Utilities */
 
 .conteiner {
@@ -15,12 +29,14 @@
 }
 
 .medium {
-    width: 75%;
+    width: 85%;
     margin: 0 auto;
+   
 }
 
 .small {
     width: 65%;
+    margin: 0 auto;
 }
 
 .float-l {
@@ -38,16 +54,34 @@
 }
 
 .col {
+
 }
 
 .w-50 {
     width: 50%
 }
 
+.w-30 {
+    width: 30%
+}
+
+.w-70 {
+    width: 70%
+}
+
 .px-15 {
     padding-left: 15px;
     padding-right: 15px;
 }
+
+.pt-40px {
+    padding-top: 40px
+}
+
+
+.mt-30 {margin-top: 30px}
+
+.mb-10 {margin-bottom: 10px}
 
 .button {
     padding:  5px 13px;
@@ -60,6 +94,12 @@
     background-color: #0061ff;
     color: white;
 }
+
+
+
+
+
+
 
 /* HEADER */
 .menu-item ul li {
@@ -87,4 +127,37 @@
 
 .nav-conteiner {
     border-bottom: 1px solid #a5d1e4
+}
+
+/* Jumbo */
+.jumbo {
+    background-color: #b4d0e7;
+}
+
+.jumbo-grid {
+    margin-top: 40px;
+}
+.main-title h1 {
+    font-size: 70px;
+}
+
+.icon-jumbo i {
+    font-size: 50px
+}
+
+.icon-jumbo {
+    margin-bottom: 100px;
+}
+
+.jumbo-img img {
+    width: 93%;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.jumbo-content {
+    position: relative;
+    top: 90px;
 }
