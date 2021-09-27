@@ -243,7 +243,7 @@ h2 {
 
 .card-content {
     border: 1px solid  #dbdbde;
-    height: 1000px; /* TODO: cambiare altezza */
+    height: 900px; /* TODO: cambiare altezza */
 }
 
 .card-details ul {
@@ -291,5 +291,31 @@ h2 {
 
 .card-point h3 {
     font-size: 15px
+}
+
+.card-line {
+    
+    border: 1px solid  #dbdbde;
+}
+
+.card-full {
+    height: auto
+}
+
+.card-full  p {
+    font-size: 12px;
+    line-height: 60px;
+
+}
+
+.card-col-full:first-child {
+    width: 70%
+}
+.card-col-full:last-child {
+    width: 30%
+}
+
+ .card-col-full .button {
+    width: 100%
 }
 
