@@ -282,7 +282,7 @@ h2 {
     font-size: 14px;
 }
 
-.card-details a {
+a {
     color: #2678ff
 }
 
@@ -378,4 +378,82 @@ h2 {
 .details-item p {
     margin-top: 14px;
     font-size: 14px
+}
+
+/* Clients */
+
+.clients > .section-title > a {
+    line-height: 100px
+}
+
+.clients-grid {
+
+}
+
+.logo-grid {
+    width: 30%;
+}
+.clients-text {width: 40%;}
+
+.logo {
+    width: 50%;
+    height: 180px;
+
+}
+
+.logo img {
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+    filter: invert();
+}
+
+.logo-1 {
+    background-color: #a2d39b;
+    border:8px solid #d0e9cd;
+    padding-top: 60px
+}
+
+.logo-2 {
+    background-color: #61082b;
+    padding-top: 38px;
+}
+
+.logo-3 {
+    background-color: #0093ce;
+    padding-top: 75px;
+}
+
+.logo-4 {
+    background-color: #ff1c1c;
+    padding-top: 55px;
+}
+
+.logo-5 {
+    background-color: #d5001f;
+    padding-top: 65px;
+}
+
+.logo-6{
+    background-color: #b4d0e7;
+    padding-top: 85px;
+}
+
+.logo-7 {
+    background-color: #0d2481;
+    padding-top: 55px;
+}
+
+.logo-8 {
+    background-color: #ffd830;
+    padding-top:60px;
+}
+
+.logo-8 img {
+    width: 50%;
+}
+
+.clients-text {
+    height: calc(180px * 2);
+    background-color: #f5f5f5;
 }
