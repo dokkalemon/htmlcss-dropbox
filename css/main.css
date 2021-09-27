@@ -8,9 +8,6 @@
     font-weight: 500;
 }
 
-body {
-    height:10000px;
-}
 
 h1, h2, h3 {
     font-weight: 700
@@ -120,6 +117,10 @@ h2 {
     color: white;
 }
 
+.white{
+    background-color: #fff;
+    padding: 5px 50px;
+}
 
 .border {
     background-color: transparent;
@@ -386,9 +387,8 @@ a {
     line-height: 100px
 }
 
-.clients-grid {
 
-}
+
 
 .logo-grid {
     width: 30%;
@@ -483,4 +483,23 @@ a {
 .clients-text p {
     font-size: 13px;
     margin-top: 30px
+}
+
+/* Banner */
+.banners {
+    height: 290px;
+    width: 100%;
+    background-color: #b4d0e7
+}
+
+
+
+.banner-title h2 {
+    padding: 90px 20px;
+    color: #61082b;
+}
+
+.banners-button .button {
+    margin-top: 100px;
+    margin-right: 5px;
 }
