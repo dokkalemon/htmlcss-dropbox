@@ -503,3 +503,34 @@ a {
     margin-top: 100px;
     margin-right: 5px;
 }
+
+
+/* faq */
+
+
+
+.faq-section-title h2 {
+    font-size: 25px;
+}
+
+.faq-conteiner {
+    height: auto;
+     width: 100%;
+}
+
+.faq-item {
+    border-top: 1px solid #e4e4e6;
+}
+
+.faq-item:last-child {
+    border-bottom: 1px solid #e4e4e6;
+}
+.faq-item p {
+    font-weight: 700;
+    padding: 20px 0px;
+}
+
+.faq-arrow i {
+    font-size: 20px;
+    padding: 20px 20px; 
+}
