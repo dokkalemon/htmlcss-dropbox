@@ -21,6 +21,13 @@ p {
     line-height: 22px;
 }
 
+h2 {
+    font-size: 35px
+}
+
+.title-section {
+
+}
 
 /* Utilities */
 
@@ -74,10 +81,25 @@ p {
     padding-right: 15px;
 }
 
-.pt-40px {
+.pl-30 {
+    padding-left: 30px
+}
+
+.pr-30 {
+    padding-right: 30px
+}
+
+.pt-40 {
     padding-top: 40px
 }
 
+.px-30 {
+    padding-left: 30px;
+    padding-right: 30px
+}
+.mt-180 {
+    margin-top: 180px
+}
 
 .mt-30 {margin-top: 30px}
 
@@ -161,3 +183,113 @@ p {
     position: relative;
     top: 90px;
 }
+
+
+/* Card Plan */
+.card-radio input {
+    margin-right: 5px
+}
+.card-radio label {
+    margin-right: 30px
+}
+
+.card-grid {
+    width: 100%;
+
+
+}
+
+
+
+.card-col {
+
+    width: calc(100% / 3);
+    height: 100%
+}
+
+.card-col-item {
+    border: 1px solid  #dbdbde;
+    width: 100%;
+    height: 100%;
+}
+.card-col-type {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #dbdbde; 
+
+}
+
+.card-col-type h3 {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.card-col-title h2 {
+    font-size: 25px;
+    line-height: 50px
+}
+
+.card-col-title h4 {
+    font-weight: 700;
+    line-height: 40px
+}
+
+.card-col-title span {
+    color: #85919b;
+    font-weight: 500;
+    font-size: 12px;
+
+}
+
+.card-content {
+    border: 1px solid  #dbdbde;
+    height: 1000px; /* TODO: cambiare altezza */
+}
+
+.card-details ul {
+    list-style: none;;
+}
+
+.card-details li {
+    font-size: 11px;
+    margin-top: 5px
+  
+}
+
+.card-details i {
+    margin-right: 4px
+}
+
+.card-content .button {
+    width: 100%;
+
+}
+
+.card-details h4 {
+    line-height: 80px;
+    font-size: 14px;
+}
+
+.card-details a {
+    color: #2678ff
+}
+
+.line {
+    height: 1px;
+    width: 40px;
+    background-color: #dbdbde;
+}
+
+.card-point i {
+    color: #1b71ff
+}
+
+.card-point li {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.card-point h3 {
+    font-size: 15px
+}
+
