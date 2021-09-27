@@ -77,8 +77,8 @@ h2 {
 }
 
 .px-15 {
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .pl-30 {
@@ -86,7 +86,7 @@ h2 {
 }
 
 .pr-30 {
-    padding-right: 30px
+    padding-right: 20px
 }
 
 .pt-40 {
@@ -99,6 +99,9 @@ h2 {
 }
 .mt-180 {
     margin-top: 180px
+}
+.mt-150 {
+    margin-top: 150px
 }
 
 .mt-30 {margin-top: 30px}
@@ -356,4 +359,23 @@ h2 {
 
 .partner-text p {
     line-height: 26px
+}
+
+/* Details */
+
+
+.details-col {
+    width: calc(100% / 3)
+}
+
+.details-item img {
+    width: 100%;
+}
+
+.details-item h2 {
+    font-size: 25px;
+}
+.details-item p {
+    margin-top: 14px;
+    font-size: 14px
 }
