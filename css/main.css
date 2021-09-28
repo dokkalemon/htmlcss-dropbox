@@ -133,7 +133,10 @@ h2 {
 
 
 /* HEADER */
-.menu-item ul li {
+header {
+    z-index: 999;
+}
+.menu-item > ul > li {
     display: inline-block;
     margin-right: 35px;
     line-height: 70px;
@@ -159,6 +162,57 @@ h2 {
 .nav-conteiner {
     border-bottom: 1px solid #a5d1e4
 }
+
+.dropdown-menu {
+    position: relative;
+    cursor: pointer;
+    
+}
+
+.dropdown-decoration {
+    height: 2px;
+    width: 80%;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 7px;
+    display: none;
+}
+
+.dropdown-menu:hover .dropdown-decoration {
+    display: block
+}
+
+.dropdown-conteiner {
+    position: absolute;
+    background-color: white;
+    height: 100px;
+    width: 180px;
+    z-index: 1;
+    padding: 5px 10px;
+}
+
+#dropdown {
+    display: none;
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 0.5;
+    transition-delay: 0.3;
+}
+
+#dropdown ul li {
+    list-style: none;
+    line-height: 45px;
+    font-size: 14px;
+    
+}
+
+.dropdown-menu:hover #dropdown {
+    display: block;
+    opacity: 1
+}
+
+
 
 /* Jumbo */
 .jumbo {
